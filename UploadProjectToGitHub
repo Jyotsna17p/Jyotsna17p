@@ -1,0 +1,37 @@
+How to: Upload Project to GitHub
+A simple step by step guide to refer to until steps are memorized.
+
+Keep that code backed up and safe! Let’s get to it:
+
+Select “New repository”
+
+2. Type the project name in the text field under “Repository Name” and press the green “Create Repository” button.
+
+
+3. Once redirected to the new page highlight and copy the following line:
+
+
+4. Set your local project to the present working directory in the terminal and type the following commands:
+
+git init -To initialize the local directory as a Git repository. (This step can be skipped if prior experience working with GitHub.)
+
+git add . -Will add the files in the new local repository.
+
+git status -Will display all the files staged for commit.
+
+Example:
+
+
+5. The files are staged and ready for the first commit. Enter git commit -m “w-e message desired”
+
+
+6. Specify the remote repository URL. You may now paste what was copied in step 3 and hit enter.
+
+
+7. Push the code in the local repository to GitHub. Type git push -u origin master. You may or may not be prompted to enter GitHub username and password.
+
+
+Head over to GitHub and view all the files inside your repository.
+
+
+You have successfully pushed your code onto GitHub!
